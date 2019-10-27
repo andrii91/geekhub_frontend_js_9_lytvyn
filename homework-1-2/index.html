@@ -4,6 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Homework 1-2</title>
+  <style>
+    p label+label {
+      display: block;
+    }
+    fieldset {
+      margin-bottom: 20px;
+    }
+    p>b {
+      display: block;
+    }
+  </style>
 </head>
 
 <body style="max-width: 763px; padding-left: 30px; padding-right: 30px;     margin: 30px auto;">
@@ -37,25 +48,25 @@
         </label>
       </p>
     </fieldset>
-    <br>
+    
     <fieldset>
       <legend><b>Подробнее о себе</b></legend>
       <p>
         <label>
           <input type="radio" name="sex_1" checked> Молодой человек
-        </label><br>
+        </label>
         <label>
           <input type="radio" name="sex_1"> Девушка
-        </label><br>
+        </label>
         <label for="date">
           <input id="date" type="date"> Дата рождения
-        </label><br>
+        </label>
         <label for="fam">
           <input id="fam" type="text"> Семейное положение
-        </label><br>
+        </label>
         <label for="soc">
           <input id="soc" type="text"> Социальный статус
-        </label><br>
+        </label>
         <label for="city">
           <input id="city" type="text"> Местожительство
         </label>
@@ -64,13 +75,13 @@
       <p>
         <label for="info_1">
           <input type="checkbox" id="info_1" value="Сплю"> Сплю
-        </label><br>
+        </label>
         <label for="info_2">
           <input type="checkbox" id="info_2" value="Гуляю с друзьями"> Гуляю с друзьями
-        </label><br>
+        </label>
         <label for="info_3">
           <input type="checkbox" id="info_3" value="Хожу на рыбалку"> Хожу на рыбалку
-        </label><br>
+        </label>
         <label for="info_4">
           <input type="checkbox" id="info_4" value="Играю в игры"> Играю в игры
         </label>
@@ -86,18 +97,18 @@
       <p>
         <label for="info2_1">
           <input type="radio" name="book" id="info2_1" value="0-10"> 0-10
-        </label><br>
+        </label>
         <label for="info2_2">
           <input type="radio" name="book" id="info2_2" value="11-20"> 11-20
-        </label><br>
+        </label>
         <label for="info2_3">
           <input type="radio" name="book" id="info2_3" value="21-50"> 21-50
-        </label><br>
+        </label>
         <label for="info2_4">
           <input type="radio" name="book" id="info2_4" value="50+"> 50+
         </label>
       </p>
-      <p><b>Ваши комментарии:</b><br>
+      <p><b>Ваши комментарии:</b>
         <textarea name="comment" cols="60" rows="10"></textarea>
       </p>
       <p>
@@ -108,25 +119,25 @@
          </select>
       </p>
     </fieldset>
-    <br>
+    
     <fieldset>
       <legend><b>И в заключении</b></legend>
       <p>
         <input style="width: 260px;" type="text" name="new_input" placeholder="Это поле было введено до вас">
       </p>
       <p>
-        <label for="email"><b>Email:</b><br>
+        <label for="email"><b>Email:</b>
           <input id="email" style="width: 260px;" type="email" name="email" >
         </label>
       </p>
-      <p><b>Хотите подписаться на самую модную рассылку спама?</b><br> <i>Выберите категории</i></p>
+      <p><b>Хотите подписаться на самую модную рассылку спама?</b> <i>Выберите категории</i></p>
       <p>
         <label for="info3_1">
           <input type="checkbox" id="info3_1" value="Обрудование"> Обрудование
-        </label><br>
+        </label>
         <label for="info3_2">
           <input type="checkbox" id="info3_2" value="Как приготить обеды">  Как приготить обеды
-        </label><br>
+        </label>
         <label for="info3_3">
           <input type="checkbox" id="info3_3" value="Заработай миллион за два дня!"> Заработай миллион за два дня!
         </label>
@@ -135,16 +146,16 @@
             <p>
         <label for="info4_1">
           <input type="radio" name="book" id="info4_1" value="Совсем нет"> Совсем нет
-        </label><br>
+        </label>
         <label for="info4_2">
           <input type="radio" name="book" id="info4_2" value="Так себе"> Так себе
-        </label><br>
+        </label>
         <label for="info4_3">
           <input type="radio" name="book" id="info4_3" value="Еле справляюсь"> Еле справляюсь
         </label>
       </p>
     </fieldset>
-    <br>
+    
     <button type="submit">Отправить</button>
   </form>
 </body>
